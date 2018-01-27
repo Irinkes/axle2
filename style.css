@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+}
+.wrapper {
+    width: 875px;
+    margin: 0 auto;
+}
+.equation-wrapper {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.axle {
+    display: block;
+    width: 875px;
+    height: 83px;
+    margin: 0 auto;
+}
+.canvas-wrapper {
+     position: relative;
+     margin: 0 auto;
+}
+
+canvas {
+    z-index: 1;
+    display: block;
+    margin: 0 auto -20px;
+}
+.int-a, .int-b{
+    padding: 0 4px;
+}
+.int-a-input, .int-b-input {
+    display: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 17px;
+    text-align: center;
+}
+.wrong-answer {
+    background: #f1ac48;
+    border-radius: 2px;
+}
+.int-result {
+    display: inline-block;
+}
+.int-sum-answer {
+    display: none;
+    width:40px;
+    height:27px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    top: -2px;
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+}
+
